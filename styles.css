@@ -1,0 +1,90 @@
+body 
+{
+   background-color:  hsl(234, 29%, 20%);
+   display: flex;
+   justify-content: center;
+   font-family: 'Roboto', sans-serif;
+   overflow: hidden;
+
+}
+.attribution
+{
+    border-radius: 17px;
+    background-color: white;
+   
+    padding: 15px;
+}
+@media screen and (min-width: 670px) 
+{
+    .attribution
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .img2
+    {
+        display: none;
+    }
+}
+  @media screen and (max-width: 670px) 
+  {
+    .img1
+    {
+        display: none;
+    }
+    .attribution
+{
+    border-radius: 17px;
+    background-color: white;
+   padding-top: 0px;
+    padding: 5px;
+}
+  }
+
+.attribution div>h1 
+{
+    font-size:35px;
+    color:hsl(234, 29%, 20%) ;
+}
+.attribution p 
+{
+font-size:17px ;
+text-align: left;
+}
+label
+{
+text-align: left;}
+input 
+{
+    display: block;
+    margin-left: 0;
+    padding:10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button
+{
+ background-color:hsl(234, 29%, 20%) ;
+ color: white;
+   padding: 10px;
+   border-radius: 5px;
+   width: 100%;
+   cursor: pointer;
+}
+button:hover
+{
+   background-color: hsl(4, 100%, 67%);
+   color: white;
+   border: hsl(4, 100%, 67%);
+}
+.success 
+{
+    background-color: white;
+    padding: 20px;
+    color: hsl(234, 29%, 20%) ;
+    display: none;
+    border-radius: 20px;
+    margin-top:20vh;
+    width: 30%;
+}
